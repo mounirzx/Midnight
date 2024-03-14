@@ -1,46 +1,141 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>HTML Tag Demo</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/css/midnight.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dark Mode Test</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/css/midnight.css">
+<style>
+  /* Additional styles for testing */
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+</style>
 </head>
 <body>
-  <header>
-    <h1>This is a heading (h1)</h1>
-    <h2>Subheading (h2)</h2>
+<div class="container">
+  <header class="text-center">
+    <h1>This is a Heading 1</h1>
+    <h2>This is a Heading 2</h2>
+    <h3>This is a Heading 3</h3>
+    <h4>This is a Heading 4</h4>
+    <h5>This is a Heading 5</h5>
+    <h6>This is a Heading 6</h6>
   </header>
 
   <main>
-    <p>This is a paragraph element containing content.</p>
+    <section>
+      <h2>Paragraphs</h2>
+      <p>This is a paragraph.</p>
+      <p><strong>Bold text</strong> and <em>italic text</em> can be displayed.</p>
+    </section>
 
-    <p><b>Bold text</b> and <i>italic text</i> can be displayed.</p>
+    <section>
+      <h2>Lists</h2>
+      <h3>Ordered List</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </section>
 
-    <ol>
-      <li>First item in the list</li>
-      <li>Second item</li>
-      <li>Third item with <a href="#">link</a></li>
-    </ol>
+    <section>
+      <h2>Links</h2>
+      <p>This is a <a href="#">link</a>.</p>
+    </section>
 
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-    </ul>
+    <section>
+      <h2>Images</h2>
+      <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+    </section>
 
-    <img src="image.jpg" alt="Image description">
+    <section>
+      <h2>Tables</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+          </tr>
+          <tr>
+            <td>Data 3</td>
+            <td>Data 4</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-    <video width="320" height="240" controls>
-      <source src="video.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <section>
+      <h2>Forms</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <input type="submit" value="Submit" class="btn">
+      </form>
+    </section>
+
+    <section>
+      <h2>Embedded Content</h2>
+      <h3>Video</h3>
+      <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2024 Copyright Notice</p>
+  <footer class="text-center">
+    <p>&copy; 2024 Dark Mode Test</p>
   </footer>
+</div>
 
-  
-  <script src="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/js/midnight.js"></script>
-  <button class="midnight-btn">Toggle Dark Mode</button>
+<script src="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/js/midnight.js"></script>
+<button class="midnight-btn btn">Toggle Dark Mode</button>
 </body>
 </html>
