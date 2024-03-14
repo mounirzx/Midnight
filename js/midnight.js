@@ -11,7 +11,7 @@ document.addEventListener('abort', function(){
 // Toggle dark mode
 document.addEventListener('DOMContentLoaded', function() {
     const darkModeButton = document.querySelector('.midnight-btn');
-    
+    alert('hello')
     if (darkModeButton) {
       darkModeButton.addEventListener('click', function(event) {
         // Check if the clicked element is the dark mode button
