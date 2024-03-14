@@ -16,12 +16,12 @@ To use Midnight in your project, simply include the CSS and JavaScript files:
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/css/midnight.css">
 <script src="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/js/midnight.js"></script>
-
+```
 Then, add a toggle button to allow users to switch between light and dark modes:
 
 ```html 
 <button class="midnight-btn">Toggle Dark Mode</button>
-
+```
 That's it! Your website now has dark mode functionality with Midnight.
 
 ## Contributing
