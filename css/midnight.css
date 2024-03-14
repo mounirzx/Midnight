@@ -1,113 +1,112 @@
 /* Dark mode styles */
 body.dark-mode {
-    background-color: #1e1e1e; /* Dark background color */
-    color: #dcdcdc; /* Light text color */
-    font-family: "Arial", sans-serif; /* Set a fallback font */
-  }
-  
-  /* Text */
-  body.dark-mode * {
-    color: inherit;
-  }
-  
-  /* Links */
-  body.dark-mode a {
-    color: #4da6ff; /* Link color */
-    text-decoration: none; /* Remove underline */
-  }
-  
-  body.dark-mode a:hover {
-    color: #84b7ff; /* Hover color for links */
-  }
-  
-  /* Backgrounds */
-  body.dark-mode .bg-light {
-    background-color: #333333; /* Light background color */
-  }
-  
-  body.dark-mode .bg-dark {
-    background-color: #1e1e1e; /* Dark background color */
-  }
-  
-  /* Borders */
-  body.dark-mode .border-light {
-    border-color: #555555; /* Light border color */
-  }
-  
-  body.dark-mode .border-dark {
-    border-color: #333333; /* Dark border color */
-  }
-  
-  /* Buttons */
-  body.dark-mode button,
-  body.dark-mode input[type="button"],
-  body.dark-mode input[type="submit"] {
-    background-color: #333333; /* Button background color */
-    color: #ffffff; /* Button text color */
-    border: 1px solid #555555; /* Button border */
-    border-radius: 4px; /* Rounded corners */
-    padding: 8px 16px; /* Padding */
-    cursor: pointer; /* Cursor style */
-  }
-  
-  body.dark-mode button:hover,
-  body.dark-mode input[type="button"]:hover,
-  body.dark-mode input[type="submit"]:hover {
-    background-color: #444444; /* Button hover background color */
-  }
-  
-  /* Form Inputs */
-  body.dark-mode input[type="text"],
-  body.dark-mode input[type="password"],
-  body.dark-mode input[type="email"],
-  body.dark-mode input[type="tel"],
-  body.dark-mode input[type="number"],
-  body.dark-mode input[type="url"],
-  body.dark-mode input[type="search"],
-  body.dark-mode input[type="date"],
-  body.dark-mode input[type="time"],
-  body.dark-mode input[type="datetime-local"],
-  body.dark-mode input[type="month"],
-  body.dark-mode input[type="week"],
-  body.dark-mode input[type="color"],
-  body.dark-mode textarea,
-  body.dark-mode select {
-    background-color: #2b2b2b; /* Input background color */
-    color: #dcdcdc; /* Input text color */
-    border: 1px solid #555555; /* Input border */
-    border-radius: 4px; /* Rounded corners */
-    padding: 8px; /* Padding */
-  }
-  
-  body.dark-mode input[type="text"]:focus,
-  body.dark-mode input[type="password"]:focus,
-  body.dark-mode input[type="email"]:focus,
-  body.dark-mode input[type="tel"]:focus,
-  body.dark-mode input[type="number"]:focus,
-  body.dark-mode input[type="url"]:focus,
-  body.dark-mode input[type="search"]:focus,
-  body.dark-mode input[type="date"]:focus,
-  body.dark-mode input[type="time"]:focus,
-  body.dark-mode input[type="datetime-local"]:focus,
-  body.dark-mode input[type="month"]:focus,
-  body.dark-mode input[type="week"]:focus,
-  body.dark-mode input[type="color"]:focus,
-  body.dark-mode textarea:focus,
-  body.dark-mode select:focus {
-    border-color: #4da6ff; /* Input focus border color */
-  }
-  
-  /* Tables */
-  body.dark-mode table {
-    border-collapse: collapse; /* Collapse borders */
-    width: 100%; /* Full width */
-  }
-  
-  body.dark-mode th,
-  body.dark-mode td {
-    border: 1px solid #444444; /* Table cell border */
-    padding: 8px; /* Padding */
-  }
-  
-  /* Customize other elements as needed */
-  
+  background-color: #1e1e1e !important; /* Dark background color */
+  color: #dcdcdc !important; /* Light text color */
+  font-family: "Arial", sans-serif !important; /* Set a fallback font */
+}
+
+/* Text */
+body.dark-mode * {
+  color: inherit !important;
+}
+
+/* Links */
+body.dark-mode a {
+  color: #4da6ff !important; /* Link color */
+  text-decoration: none !important; /* Remove underline */
+}
+
+body.dark-mode a:hover {
+  color: #84b7ff !important; /* Hover color for links */
+}
+
+/* Backgrounds */
+body.dark-mode .bg-light {
+  background-color: #333333 !important; /* Light background color */
+}
+
+body.dark-mode .bg-dark {
+  background-color: #1e1e1e !important; /* Dark background color */
+}
+
+/* Borders */
+body.dark-mode .border-light {
+  border-color: #555555 !important; /* Light border color */
+}
+
+body.dark-mode .border-dark {
+  border-color: #333333 !important; /* Dark border color */
+}
+
+/* Buttons */
+body.dark-mode button,
+body.dark-mode input[type="button"],
+body.dark-mode input[type="submit"] {
+  background-color: #333333 !important; /* Button background color */
+  color: #ffffff !important; /* Button text color */
+  border: 1px solid #555555 !important; /* Button border */
+  border-radius: 4px !important; /* Rounded corners */
+  padding: 8px 16px !important; /* Padding */
+  cursor: pointer !important; /* Cursor style */
+}
+
+body.dark-mode button:hover,
+body.dark-mode input[type="button"]:hover,
+body.dark-mode input[type="submit"]:hover {
+  background-color: #444444 !important; /* Button hover background color */
+}
+
+/* Form Inputs */
+body.dark-mode input[type="text"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="tel"],
+body.dark-mode input[type="number"],
+body.dark-mode input[type="url"],
+body.dark-mode input[type="search"],
+body.dark-mode input[type="date"],
+body.dark-mode input[type="time"],
+body.dark-mode input[type="datetime-local"],
+body.dark-mode input[type="month"],
+body.dark-mode input[type="week"],
+body.dark-mode input[type="color"],
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: #2b2b2b !important; /* Input background color */
+  color: #dcdcdc !important; /* Input text color */
+  border: 1px solid #555555 !important; /* Input border */
+  border-radius: 4px !important; /* Rounded corners */
+  padding: 8px !important; /* Padding */
+}
+
+body.dark-mode input[type="text"]:focus,
+body.dark-mode input[type="password"]:focus,
+body.dark-mode input[type="email"]:focus,
+body.dark-mode input[type="tel"]:focus,
+body.dark-mode input[type="number"]:focus,
+body.dark-mode input[type="url"]:focus,
+body.dark-mode input[type="search"]:focus,
+body.dark-mode input[type="date"]:focus,
+body.dark-mode input[type="time"]:focus,
+body.dark-mode input[type="datetime-local"]:focus,
+body.dark-mode input[type="month"]:focus,
+body.dark-mode input[type="week"]:focus,
+body.dark-mode input[type="color"]:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+  border-color: #4da6ff !important; /* Input focus border color */
+}
+
+/* Tables */
+body.dark-mode table {
+  border-collapse: collapse !important; /* Collapse borders */
+  width: 100% !important; /* Full width */
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  border: 1px solid #444444 !important; /* Table cell border */
+  padding: 8px !important; /* Padding */
+}
+
+/* Customize other elements as needed */
