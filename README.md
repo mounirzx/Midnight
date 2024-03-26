@@ -14,8 +14,8 @@ Midnight is a lightweight dark mode CSS library with JavaScript functionality fo
 To use Midnight in your project, simply include the CSS and JavaScript files:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/css/midnight.css">
-<script src="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@main/js/midnight.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@latest/css/midnight.css">
+<script src="https://cdn.jsdelivr.net/gh/mounirzx/Midnight@latest/js/midnight.js"></script>
 ```
 Then, add a toggle button to allow users to switch between light and dark modes:
 
