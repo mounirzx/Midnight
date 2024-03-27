@@ -1,6 +1,6 @@
 # Midnight
 
-Midnight is a lightweight dark mode CSS library with JavaScript functionality for seamless integration into any website. With Midnight, you can easily toggle between light and dark modes, providing a better viewing experience for users in low-light environments.
+Midnight is a lightweight dark mode CSS CDN library with JavaScript functionality for seamless integration into any website. With Midnight, you can easily toggle between light and dark modes, providing a better viewing experience for users in low-light environments.
 
 ## Features
 
